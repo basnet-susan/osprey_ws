@@ -1,0 +1,1 @@
+/home/susan/osprey_ws/src/drone_description/launch/spawn_osprey.launch.py

@@ -1,0 +1,12 @@
+[console_scripts]
+depth_point_each = vl53l8cx_ros.depth_point_each:main
+nav_odom_tf_broadcaster = vl53l8cx_ros.nav_odom_tf_broadcaster:main
+octomap_builder_node = vl53l8cx_ros.octomap_builder_node:main
+offboard_control = vl53l8cx_ros.offboard_control:main
+plotjuggler_visualizer = vl53l8cx_ros.plotjuggler_visualizer:main
+potential_field_computer = vl53l8cx_ros.potential_field_computer:main
+px4_fused_sensors = vl53l8cx_ros.px4_fused_sensors:main
+ray_visualizer = vl53l8cx_ros.ray_visualizer:main
+sensor_each_pointcloud = vl53l8cx_ros.sensor_each_pointcloud:main
+vfh_planner_node = vl53l8cx_ros.vfh_planner_node:main
+vl53l8cx_pointcloud = vl53l8cx_ros.vl53l8cx_pointcloud:main

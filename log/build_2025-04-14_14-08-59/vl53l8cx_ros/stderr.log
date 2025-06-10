@@ -1,0 +1,7 @@
+/home/susan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+  File "/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros/nav_odom_tf_broadcaster.py", line 25
+    qos_profile
+    ^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

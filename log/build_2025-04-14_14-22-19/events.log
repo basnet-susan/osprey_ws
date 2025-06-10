@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000610] (-) JobUnselected: {'identifier': 'drone_description'}
+[0.000705] (vl53l8cx_ros) JobQueued: {'identifier': 'vl53l8cx_ros', 'dependencies': OrderedDict()}
+[0.000731] (vl53l8cx_ros) JobStarted: {'identifier': 'vl53l8cx_ros'}
+[0.098500] (-) TimerEvent: {}
+[0.198979] (-) TimerEvent: {}
+[0.299416] (-) TimerEvent: {}
+[0.399820] (-) TimerEvent: {}
+[0.500435] (-) TimerEvent: {}
+[0.601006] (-) TimerEvent: {}
+[0.701526] (-) TimerEvent: {}
+[0.802095] (-) TimerEvent: {}
+[0.902679] (-) TimerEvent: {}
+[1.003260] (-) TimerEvent: {}
+[1.100419] (vl53l8cx_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vl53l8cx_ros', 'build', '--build-base', '/home/susan/osprey_ws/build/vl53l8cx_ros/build', 'install', '--record', '/home/susan/osprey_ws/build/vl53l8cx_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/susan/osprey_ws/src/vl53l8cx_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'susan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/susan/ws_sensor_combined/install/px4_ros_com/lib:/home/susan/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/susan', 'OLDPWD': '/home/susan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2594', 'SYSTEMD_EXEC_PID': '2950', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3295', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/susan/osprey_ws/install:/home/susan/ws_sensor_combined/install:/home/susan/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'susan', 'JOURNAL_STREAM': '8:22294', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'susan', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/susan/osprey_ws/src/drone_description/meshes', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/susan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/susan-XPS-9320:@/tmp/.ICE-unix/2749,unix/susan-XPS-9320:/tmp/.ICE-unix/2749', 'INVOCATION_ID': '0e55342ce0c647f2ad2accc6f9064069', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GWQR42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/susan/osprey_ws/install/vl53l8cx_ros:/home/susan/osprey_ws/install/drone_description:/home/susan/ws_sensor_combined/install/px4_ros_com:/home/susan/ws_sensor_combined/install/px4_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:ab176dfa-5f1d-4fd8-b514-6efd1b3f3cd8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/susan/osprey_ws/build/vl53l8cx_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/susan/osprey_ws/build/vl53l8cx_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages:/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages:/home/susan/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/susan/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/susan/osprey_ws/install/drone_description:/home/susan/ws_sensor_combined/install/px4_ros_com:/home/susan/ws_sensor_combined/install/px4_msgs'}, 'shell': False}
+[1.104661] (-) TimerEvent: {}
+[1.206953] (-) TimerEvent: {}
+[1.307508] (-) TimerEvent: {}
+[1.393174] (vl53l8cx_ros) StderrLine: {'line': b"/home/susan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.393753] (vl53l8cx_ros) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.407662] (-) TimerEvent: {}
+[1.508184] (-) TimerEvent: {}
+[1.546101] (vl53l8cx_ros) StdoutLine: {'line': b'running egg_info\n'}
+[1.565624] (vl53l8cx_ros) StdoutLine: {'line': b'writing ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/PKG-INFO\n'}
+[1.566339] (vl53l8cx_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/dependency_links.txt\n'}
+[1.566710] (vl53l8cx_ros) StdoutLine: {'line': b'writing entry points to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/entry_points.txt\n'}
+[1.566897] (vl53l8cx_ros) StdoutLine: {'line': b'writing requirements to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/requires.txt\n'}
+[1.567014] (vl53l8cx_ros) StdoutLine: {'line': b'writing top-level names to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/top_level.txt\n'}
+[1.608246] (vl53l8cx_ros) StdoutLine: {'line': b"reading manifest file '../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/SOURCES.txt'\n"}
+[1.608484] (-) TimerEvent: {}
+[1.610242] (vl53l8cx_ros) StdoutLine: {'line': b"writing manifest file '../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/SOURCES.txt'\n"}
+[1.610728] (vl53l8cx_ros) StdoutLine: {'line': b'running build\n'}
+[1.610817] (vl53l8cx_ros) StdoutLine: {'line': b'running build_py\n'}
+[1.611461] (vl53l8cx_ros) StdoutLine: {'line': b'copying vl53l8cx_ros/yaw_spin.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros\n'}
+[1.612266] (vl53l8cx_ros) StdoutLine: {'line': b'copying vl53l8cx_ros/vehicle_odom_to_nav_odom.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros\n'}
+[1.612959] (vl53l8cx_ros) StdoutLine: {'line': b'copying vl53l8cx_ros/__init__.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros\n'}
+[1.613534] (vl53l8cx_ros) StdoutLine: {'line': b'copying vl53l8cx_ros/depth_point_each.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros\n'}
+[1.614549] (vl53l8cx_ros) StdoutLine: {'line': b'copying vl53l8cx_ros/vl53l8cx_pointcloud.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros\n'}
+[1.615211] (vl53l8cx_ros) StdoutLine: {'line': b'copying vl53l8cx_ros/nav_odom_tf_broadcaster.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros\n'}
+[1.615847] (vl53l8cx_ros) StdoutLine: {'line': b'copying vl53l8cx_ros/sensor_each_pointcloud.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros\n'}
+[1.616492] (vl53l8cx_ros) StdoutLine: {'line': b'copying vl53l8cx_ros/px4_fused_sensors.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros\n'}
+[1.617143] (vl53l8cx_ros) StdoutLine: {'line': b'copying vl53l8cx_ros/fused_sensors.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros\n'}
+[1.618647] (vl53l8cx_ros) StdoutLine: {'line': b'running install\n'}
+[1.633948] (vl53l8cx_ros) StdoutLine: {'line': b'running install_lib\n'}
+[1.663721] (vl53l8cx_ros) StdoutLine: {'line': b'copying /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros/nav_odom_tf_broadcaster.py -> /home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros\n'}
+[1.664620] (vl53l8cx_ros) StdoutLine: {'line': b'byte-compiling /home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros/nav_odom_tf_broadcaster.py to nav_odom_tf_broadcaster.cpython-310.pyc\n'}
+[1.664944] (vl53l8cx_ros) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (nav_odom_tf_broadcaster.py, line 39)\n'}
+[1.665127] (vl53l8cx_ros) StdoutLine: {'line': b'running install_data\n'}
+[1.665491] (vl53l8cx_ros) StdoutLine: {'line': b'copying resource/vl53l8cx_ros -> /home/susan/osprey_ws/install/vl53l8cx_ros/share/ament_index/resource_index/packages\n'}
+[1.665769] (vl53l8cx_ros) StdoutLine: {'line': b'copying package.xml -> /home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros\n'}
+[1.666001] (vl53l8cx_ros) StdoutLine: {'line': b'copying msg/MultiZoneRange.msg -> /home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/msg\n'}
+[1.666202] (vl53l8cx_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.708670] (-) TimerEvent: {}
+[1.717277] (vl53l8cx_ros) StdoutLine: {'line': b"removing '/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.717993] (vl53l8cx_ros) StdoutLine: {'line': b'Copying ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros-0.0.0-py3.10.egg-info\n'}
+[1.719765] (vl53l8cx_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[1.808779] (-) TimerEvent: {}
+[1.909129] (-) TimerEvent: {}
+[1.932441] (vl53l8cx_ros) StdoutLine: {'line': b'Installing depth_point_each script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros\n'}
+[1.932788] (vl53l8cx_ros) StdoutLine: {'line': b'Installing fused_sensors script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros\n'}
+[1.933017] (vl53l8cx_ros) StdoutLine: {'line': b'Installing nav_odom_tf_broadcaster script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros\n'}
+[1.933522] (vl53l8cx_ros) StdoutLine: {'line': b'Installing px4_fused_sensors script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros\n'}
+[1.933830] (vl53l8cx_ros) StdoutLine: {'line': b'Installing sensor_each_pointcloud script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros\n'}
+[1.934090] (vl53l8cx_ros) StdoutLine: {'line': b'Installing vehicle_odom_to_nav_odom script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros\n'}
+[1.934601] (vl53l8cx_ros) StdoutLine: {'line': b'Installing vl53l8cx_pointcloud script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros\n'}
+[1.934974] (vl53l8cx_ros) StdoutLine: {'line': b'Installing yaw_spin script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros\n'}
+[1.935252] (vl53l8cx_ros) StdoutLine: {'line': b"writing list of installed files to '/home/susan/osprey_ws/build/vl53l8cx_ros/install.log'\n"}
+[1.997329] (vl53l8cx_ros) CommandEnded: {'returncode': 0}
+[2.009311] (-) TimerEvent: {}
+[2.029597] (vl53l8cx_ros) JobEnded: {'identifier': 'vl53l8cx_ros', 'rc': 0}
+[2.031752] (-) EventReactorShutdown: {}

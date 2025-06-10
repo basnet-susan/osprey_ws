@@ -1,0 +1,54 @@
+[0.065s] Invoking command in '/home/susan/osprey_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/susan/osprey_ws/install/vl53l8cx_ros:/home/susan/osprey_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/susan/osprey_ws/build/drone_description -- -j16 -l16
+[1.005s] Invoked command in '/home/susan/osprey_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/susan/osprey_ws/install/vl53l8cx_ros:/home/susan/osprey_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/susan/osprey_ws/build/drone_description -- -j16 -l16
+[1.028s] Invoking command in '/home/susan/osprey_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/susan/osprey_ws/install/vl53l8cx_ros:/home/susan/osprey_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/susan/osprey_ws/build/drone_description
+[1.052s] -- Install configuration: ""
+[1.054s] -- Execute custom install script
+[1.057s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/PI_CAM/pi_cam.urdf.xacro
+[1.057s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/_t265.gazebo.xacro
+[1.058s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/_t265.urdf.xacro
+[1.058s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/base1.urdf.xacro
+[1.059s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/l515_urdf/_l515.urdf.xacro
+[1.060s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/l515_urdf/_materials.urdf.xacro
+[1.060s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/l515_urdf/_usb_plug.urdf.xacro
+[1.061s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/osprey.urdf.xacro
+[1.061s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/osprey_base.urdf.xacro
+[1.061s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/osprey_sensors (copy).xacro
+[1.062s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/osprey_sensors.urdf
+[1.062s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/urdf/osprey_sensors.xacro
+[1.062s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/worlds/drone_world.sdf
+[1.063s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/launch/gazebo.launch.py
+[1.063s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/launch/spawn_osprey.launch
+[1.063s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/launch/spawn_osprey.launch.py
+[1.064s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/launch/transform_launch.py
+[1.065s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/final_product_urdf.dae
+[1.066s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/final_product_urdf.stl
+[1.066s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/hummingbird.dae
+[1.067s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/l515.dae
+[1.068s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/osprey_model_urdf.STL
+[1.068s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/osprey_model_urdf.dae
+[1.069s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/pi_cam.dae
+[1.069s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/pi_cam.stl
+[1.069s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/quadcopter_base.dae
+[1.070s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/quadcopter_base.stl
+[1.070s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/realsense_t265.stl
+[1.070s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/t265_full.stl
+[1.070s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/t265_simplified.stl
+[1.071s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/vl53l8cx_carrier.STL
+[1.071s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/meshes/vl53l8cx_carrier.dae
+[1.072s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/rviz/osprey_config.rviz
+[1.072s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/ament_index/resource_index/package_run_dependencies/drone_description
+[1.073s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/ament_index/resource_index/parent_prefix_path/drone_description
+[1.073s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/environment/ament_prefix_path.sh
+[1.074s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/environment/ament_prefix_path.dsv
+[1.075s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/environment/path.sh
+[1.075s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/environment/path.dsv
+[1.075s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/local_setup.bash
+[1.076s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/local_setup.sh
+[1.077s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/local_setup.zsh
+[1.077s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/local_setup.dsv
+[1.078s] -- Symlinking: /home/susan/osprey_ws/install/drone_description/share/drone_description/package.dsv
+[1.092s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/ament_index/resource_index/packages/drone_description
+[1.092s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/cmake/drone_descriptionConfig.cmake
+[1.092s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/cmake/drone_descriptionConfig-version.cmake
+[1.093s] -- Up-to-date symlink: /home/susan/osprey_ws/install/drone_description/share/drone_description/package.xml
+[1.097s] Invoked command in '/home/susan/osprey_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/susan/osprey_ws/install/vl53l8cx_ros:/home/susan/osprey_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/susan/osprey_ws/build/drone_description

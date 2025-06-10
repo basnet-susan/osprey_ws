@@ -1,0 +1,240 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.158s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7da406c6eb00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7da406c6e590>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7da406c6e590>>)
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.217s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/susan/osprey_ws'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_description' with type 'ros.ament_cmake' and name 'drone_description'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-offboard' with type 'ros.ament_python' and name 'px4_offboard'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/vl53l8cx_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/vl53l8cx_ros) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/vl53l8cx_ros) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/vl53l8cx_ros) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/vl53l8cx_ros) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/vl53l8cx_ros) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/vl53l8cx_ros) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/vl53l8cx_ros) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/vl53l8cx_ros) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vl53l8cx_ros' with type 'ros.ament_python' and name 'vl53l8cx_ros'
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.287s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/susan/osprey_ws/install
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/susan/ws_sensor_combined/install
+[0.289s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 407 installed packages in /opt/ros/humble
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'drone_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/susan/osprey_ws/build/drone_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/susan/osprey_ws/install/drone_description', 'merge_install': False, 'path': '/home/susan/osprey_ws/src/drone_description', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'px4_offboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/susan/osprey_ws/build/px4_offboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/susan/osprey_ws/install/px4_offboard', 'merge_install': False, 'path': '/home/susan/osprey_ws/src/px4-offboard', 'symlink_install': False, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'vl53l8cx_ros' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'vl53l8cx_ros' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'vl53l8cx_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'vl53l8cx_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'vl53l8cx_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'vl53l8cx_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'vl53l8cx_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'vl53l8cx_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'vl53l8cx_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'vl53l8cx_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/susan/osprey_ws/build/vl53l8cx_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/susan/osprey_ws/install/vl53l8cx_ros', 'merge_install': False, 'path': '/home/susan/osprey_ws/src/vl53l8cx_ros', 'symlink_install': False, 'test_result_base': None}
+[0.348s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.350s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/susan/osprey_ws/src/drone_description' with build type 'ament_cmake'
+[0.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/susan/osprey_ws/src/drone_description'
+[0.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.359s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/susan/osprey_ws/src/px4-offboard' with build type 'ament_python'
+[0.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'ament_prefix_path')
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/susan/osprey_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.dsv'
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.sh'
+[0.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.367s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/susan/osprey_ws/src/vl53l8cx_ros' with build type 'ament_python'
+[0.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('vl53l8cx_ros', 'ament_prefix_path')
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/hook/ament_prefix_path.ps1'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/hook/ament_prefix_path.dsv'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/hook/ament_prefix_path.sh'
+[0.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/susan/osprey_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/susan/osprey_ws/install/vl53l8cx_ros:/home/susan/osprey_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/susan/osprey_ws/build/drone_description -- -j16 -l16
+[0.689s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/susan/osprey_ws/src/px4-offboard'
+[0.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.982s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/susan/osprey_ws/src/vl53l8cx_ros'
+[0.983s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.983s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/susan/osprey_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/susan/osprey_ws/install/vl53l8cx_ros:/home/susan/osprey_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/susan/osprey_ws/build/drone_description -- -j16 -l16
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/susan/osprey_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/susan/osprey_ws/install/vl53l8cx_ros:/home/susan/osprey_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/susan/osprey_ws/build/drone_description
+[1.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_description)
+[1.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/susan/osprey_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/susan/osprey_ws/install/vl53l8cx_ros:/home/susan/osprey_ws/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/susan/osprey_ws/build/drone_description
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description' for CMake module files
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description' for CMake config files
+[1.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_description', 'cmake_prefix_path')
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.ps1'
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/susan/osprey_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.dsv'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.sh'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description/bin'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description/lib/pkgconfig/drone_description.pc'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description/lib/python3.10/site-packages'
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description/bin'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/drone_description/share/drone_description/package.ps1'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/susan/osprey_ws/install/drone_description/share/drone_description/package.dsv'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/drone_description/share/drone_description/package.sh'
+[1.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/drone_description/share/drone_description/package.bash'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/drone_description/share/drone_description/package.zsh'
+[1.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/susan/osprey_ws/install/drone_description/share/colcon-core/packages/drone_description)
+[1.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_description)
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description' for CMake module files
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description' for CMake config files
+[1.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_description', 'cmake_prefix_path')
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.ps1'
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/susan/osprey_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.dsv'
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.sh'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description/bin'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description/lib/pkgconfig/drone_description.pc'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description/lib/python3.10/site-packages'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/drone_description/bin'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/drone_description/share/drone_description/package.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/susan/osprey_ws/install/drone_description/share/drone_description/package.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/drone_description/share/drone_description/package.sh'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/drone_description/share/drone_description/package.bash'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/drone_description/share/drone_description/package.zsh'
+[1.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/susan/osprey_ws/install/drone_description/share/colcon-core/packages/drone_description)
+[1.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/susan/osprey_ws/src/px4-offboard': PYTHONPATH=/home/susan/osprey_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/susan/osprey_ws/build/px4_offboard/build install --record /home/susan/osprey_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
+[1.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/susan/osprey_ws/src/vl53l8cx_ros': PYTHONPATH=/home/susan/osprey_ws/build/vl53l8cx_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vl53l8cx_ros build --build-base /home/susan/osprey_ws/build/vl53l8cx_ros/build install --record /home/susan/osprey_ws/build/vl53l8cx_ros/install.log --single-version-externally-managed install_data
+[2.593s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/px4_offboard' for CMake module files
+[2.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/susan/osprey_ws/src/px4-offboard' returned '0': PYTHONPATH=/home/susan/osprey_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/susan/osprey_ws/build/px4_offboard/build install --record /home/susan/osprey_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
+[2.595s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/px4_offboard' for CMake config files
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/px4_offboard/lib'
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/px4_offboard/bin'
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/px4_offboard/lib/pkgconfig/px4_offboard.pc'
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/px4_offboard/lib/python3.10/site-packages'
+[2.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'pythonpath')
+[2.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.ps1'
+[2.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/susan/osprey_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.dsv'
+[2.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.sh'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/px4_offboard/bin'
+[2.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_offboard)
+[2.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/px4_offboard/share/px4_offboard/package.ps1'
+[2.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/susan/osprey_ws/install/px4_offboard/share/px4_offboard/package.dsv'
+[2.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/px4_offboard/share/px4_offboard/package.sh'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/px4_offboard/share/px4_offboard/package.bash'
+[2.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/px4_offboard/share/px4_offboard/package.zsh'
+[2.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/susan/osprey_ws/install/px4_offboard/share/colcon-core/packages/px4_offboard)
+[2.702s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/vl53l8cx_ros' for CMake module files
+[2.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/susan/osprey_ws/src/vl53l8cx_ros' returned '0': PYTHONPATH=/home/susan/osprey_ws/build/vl53l8cx_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vl53l8cx_ros build --build-base /home/susan/osprey_ws/build/vl53l8cx_ros/build install --record /home/susan/osprey_ws/build/vl53l8cx_ros/install.log --single-version-externally-managed install_data
+[2.703s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/vl53l8cx_ros' for CMake config files
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/vl53l8cx_ros/lib'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/vl53l8cx_ros/bin'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/vl53l8cx_ros/lib/pkgconfig/vl53l8cx_ros.pc'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages'
+[2.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('vl53l8cx_ros', 'pythonpath')
+[2.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/hook/pythonpath.ps1'
+[2.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/hook/pythonpath.dsv'
+[2.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/hook/pythonpath.sh'
+[2.710s] Level 1:colcon.colcon_core.environment:checking '/home/susan/osprey_ws/install/vl53l8cx_ros/bin'
+[2.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vl53l8cx_ros)
+[2.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/package.ps1'
+[2.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/package.dsv'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/package.sh'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/package.bash'
+[2.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/package.zsh'
+[2.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/susan/osprey_ws/install/vl53l8cx_ros/share/colcon-core/packages/vl53l8cx_ros)
+[2.714s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.715s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.743s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.744s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.744s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.770s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.771s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/susan/osprey_ws/install/local_setup.ps1'
+[2.775s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/susan/osprey_ws/install/_local_setup_util_ps1.py'
+[2.780s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/susan/osprey_ws/install/setup.ps1'
+[2.782s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/susan/osprey_ws/install/local_setup.sh'
+[2.783s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/susan/osprey_ws/install/_local_setup_util_sh.py'
+[2.784s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/susan/osprey_ws/install/setup.sh'
+[2.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/susan/osprey_ws/install/local_setup.bash'
+[2.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/susan/osprey_ws/install/setup.bash'
+[2.794s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/susan/osprey_ws/install/local_setup.zsh'
+[2.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/susan/osprey_ws/install/setup.zsh'

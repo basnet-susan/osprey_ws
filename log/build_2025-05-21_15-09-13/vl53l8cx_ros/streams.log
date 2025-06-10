@@ -1,0 +1,50 @@
+[0.894s] Invoking command in '/home/susan/osprey_ws/src/vl53l8cx_ros': PYTHONPATH=/home/susan/osprey_ws/build/vl53l8cx_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vl53l8cx_ros build --build-base /home/susan/osprey_ws/build/vl53l8cx_ros/build install --record /home/susan/osprey_ws/build/vl53l8cx_ros/install.log --single-version-externally-managed install_data
+[1.067s] /home/susan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.067s]   warnings.warn(msg)
+[1.253s] running egg_info
+[1.283s] writing ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/PKG-INFO
+[1.284s] writing dependency_links to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/dependency_links.txt
+[1.284s] writing entry points to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/entry_points.txt
+[1.284s] writing requirements to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/requires.txt
+[1.285s] writing top-level names to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/top_level.txt
+[1.322s] reading manifest file '../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/SOURCES.txt'
+[1.324s] writing manifest file '../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/SOURCES.txt'
+[1.324s] running build
+[1.324s] running build_py
+[1.325s] copying vl53l8cx_ros/plotjuggler_visualizer.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.325s] copying vl53l8cx_ros/vfh_planner_node.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.325s] copying vl53l8cx_ros/__init__.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.325s] copying vl53l8cx_ros/offboard_without_VFH.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.326s] copying vl53l8cx_ros/depth_point_each.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.326s] copying vl53l8cx_ros/vl53l8cx_pointcloud.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.326s] copying vl53l8cx_ros/ray_visualizer.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.326s] copying vl53l8cx_ros/nav_odom_tf_broadcaster.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.326s] copying vl53l8cx_ros/sensor_each_pointcloud.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.326s] copying vl53l8cx_ros/px4_fused_sensors.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.326s] copying vl53l8cx_ros/octomap_builder_node.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.327s] copying vl53l8cx_ros/offboard_control.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.328s] running install
+[1.333s] running install_lib
+[1.350s] copying /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros/ray_visualizer.py -> /home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros
+[1.351s] byte-compiling /home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros/ray_visualizer.py to ray_visualizer.cpython-310.pyc
+[1.357s] running install_data
+[1.358s] copying resource/vl53l8cx_ros -> /home/susan/osprey_ws/install/vl53l8cx_ros/share/ament_index/resource_index/packages
+[1.358s] copying package.xml -> /home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros
+[1.359s] copying launch/offboard_osprey_control.launch.py -> /home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros
+[1.360s] copying msg/MultiZoneRange.msg -> /home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/msg
+[1.360s] running install_egg_info
+[1.388s] removing '/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[1.388s] Copying ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros-0.0.0-py3.10.egg-info
+[1.389s] running install_scripts
+[1.597s] Installing depth_point_each script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.598s] Installing nav_odom_tf_broadcaster script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.598s] Installing octomap_builder_node script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.598s] Installing offboard_control script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.598s] Installing plotjuggler_visualizer script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.598s] Installing px4_fused_sensors script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.598s] Installing ray_visualizer script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.598s] Installing sensor_each_pointcloud script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.598s] Installing vfh_planner_node script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.598s] Installing vl53l8cx_pointcloud script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.599s] writing list of installed files to '/home/susan/osprey_ws/build/vl53l8cx_ros/install.log'
+[1.640s] Invoked command in '/home/susan/osprey_ws/src/vl53l8cx_ros' returned '0': PYTHONPATH=/home/susan/osprey_ws/build/vl53l8cx_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vl53l8cx_ros build --build-base /home/susan/osprey_ws/build/vl53l8cx_ros/build install --record /home/susan/osprey_ws/build/vl53l8cx_ros/install.log --single-version-externally-managed install_data

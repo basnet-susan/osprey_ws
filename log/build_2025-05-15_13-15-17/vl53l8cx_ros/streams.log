@@ -1,0 +1,48 @@
+[0.950s] Invoking command in '/home/susan/osprey_ws/src/vl53l8cx_ros': PYTHONPATH=/home/susan/osprey_ws/build/vl53l8cx_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vl53l8cx_ros build --build-base /home/susan/osprey_ws/build/vl53l8cx_ros/build install --record /home/susan/osprey_ws/build/vl53l8cx_ros/install.log --single-version-externally-managed install_data
+[1.088s] /home/susan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.088s]   warnings.warn(msg)
+[1.159s] running egg_info
+[1.169s] writing ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/PKG-INFO
+[1.169s] writing dependency_links to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/dependency_links.txt
+[1.169s] writing entry points to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/entry_points.txt
+[1.169s] writing requirements to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/requires.txt
+[1.170s] writing top-level names to ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/top_level.txt
+[1.193s] reading manifest file '../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/SOURCES.txt'
+[1.195s] writing manifest file '../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info/SOURCES.txt'
+[1.195s] running build
+[1.195s] running build_py
+[1.195s] copying vl53l8cx_ros/yaw_spin.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.196s] copying vl53l8cx_ros/__init__.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.196s] copying vl53l8cx_ros/depth_point_each.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.196s] copying vl53l8cx_ros/vl53l8cx_pointcloud.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.197s] copying vl53l8cx_ros/nav_odom_tf_broadcaster.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.197s] copying vl53l8cx_ros/sensor_each_pointcloud.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.197s] copying vl53l8cx_ros/px4_fused_sensors.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.197s] copying vl53l8cx_ros/fused_sensors.py -> /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros
+[1.198s] running install
+[1.203s] running install_lib
+[1.219s] copying /home/susan/osprey_ws/build/vl53l8cx_ros/build/lib/vl53l8cx_ros/yaw_spin.py -> /home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros
+[1.220s] byte-compiling /home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros/yaw_spin.py to yaw_spin.cpython-310.pyc
+[1.221s] running install_data
+[1.221s] copying resource/vl53l8cx_ros -> /home/susan/osprey_ws/install/vl53l8cx_ros/share/ament_index/resource_index/packages
+[1.221s] copying package.xml -> /home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros
+[1.221s] copying launch/offboard_osprey_control.launch.py -> /home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros
+[1.221s] copying msg/MultiZoneRange.msg -> /home/susan/osprey_ws/install/vl53l8cx_ros/share/vl53l8cx_ros/msg
+[1.221s] running install_egg_info
+[1.233s] removing '/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[1.233s] Copying ../../build/vl53l8cx_ros/vl53l8cx_ros.egg-info to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx_ros-0.0.0-py3.10.egg-info
+[1.234s] running install_scripts
+[1.321s] Installing control script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.321s] Installing depth_point_each script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.321s] Installing fused_sensors script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.321s] Installing nav_odom_tf_broadcaster script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.321s] Installing processes script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.321s] Installing px4_fused_sensors script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.322s] Installing sensor_each_pointcloud script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.322s] Installing vehicle_odom_to_nav_odom script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.322s] Installing velocity_control script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.322s] Installing visualizer script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.322s] Installing vl53l8cx_pointcloud script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.322s] Installing yaw_spin script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.322s] writing list of installed files to '/home/susan/osprey_ws/build/vl53l8cx_ros/install.log'
+[1.348s] Invoked command in '/home/susan/osprey_ws/src/vl53l8cx_ros' returned '0': PYTHONPATH=/home/susan/osprey_ws/build/vl53l8cx_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vl53l8cx_ros build --build-base /home/susan/osprey_ws/build/vl53l8cx_ros/build install --record /home/susan/osprey_ws/build/vl53l8cx_ros/install.log --single-version-externally-managed install_data

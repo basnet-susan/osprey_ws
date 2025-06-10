@@ -1,0 +1,35 @@
+[0.655s] Invoking command in '/home/susan/osprey_ws/src/px4-offboard': PYTHONPATH=/home/susan/osprey_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/susan/osprey_ws/build/px4_offboard/build install --record /home/susan/osprey_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
+[0.762s] /home/susan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.762s]   warnings.warn(msg)
+[0.817s] running egg_info
+[0.827s] writing ../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[0.828s] writing dependency_links to ../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[0.828s] writing entry points to ../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[0.828s] writing requirements to ../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[0.828s] writing top-level names to ../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[0.849s] reading manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.849s] adding license file 'LICENSE'
+[0.850s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.850s] running build
+[0.850s] running build_py
+[0.851s] copying px4_offboard/__init__.py -> /home/susan/osprey_ws/build/px4_offboard/build/lib/px4_offboard
+[0.851s] copying px4_offboard/visualizer.py -> /home/susan/osprey_ws/build/px4_offboard/build/lib/px4_offboard
+[0.851s] copying px4_offboard/offboard_control.py -> /home/susan/osprey_ws/build/px4_offboard/build/lib/px4_offboard
+[0.851s] running install
+[0.854s] running install_lib
+[0.863s] running install_data
+[0.863s] copying resource/px4_offboard -> /home/susan/osprey_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[0.863s] copying resource/visualize.rviz -> /home/susan/osprey_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[0.864s] copying package.xml -> /home/susan/osprey_ws/install/px4_offboard/share/px4_offboard
+[0.864s] copying launch/offboard_position_control.launch.py -> /home/susan/osprey_ws/install/px4_offboard/share/px4_offboard
+[0.864s] copying launch/offboard_hardware_position_control.launch.py -> /home/susan/osprey_ws/install/px4_offboard/share/px4_offboard
+[0.864s] copying launch/visualize.launch.py -> /home/susan/osprey_ws/install/px4_offboard/share/px4_offboard
+[0.864s] copying resource/visualize.rviz -> /home/susan/osprey_ws/install/px4_offboard/share/px4_offboard
+[0.864s] running install_egg_info
+[0.874s] removing '/home/susan/osprey_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info' (and everything under it)
+[0.875s] Copying ../../build/px4_offboard/px4_offboard.egg-info to /home/susan/osprey_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info
+[0.875s] running install_scripts
+[0.955s] Installing offboard_control script to /home/susan/osprey_ws/install/px4_offboard/lib/px4_offboard
+[0.955s] Installing visualizer script to /home/susan/osprey_ws/install/px4_offboard/lib/px4_offboard
+[0.955s] writing list of installed files to '/home/susan/osprey_ws/build/px4_offboard/install.log'
+[0.977s] Invoked command in '/home/susan/osprey_ws/src/px4-offboard' returned '0': PYTHONPATH=/home/susan/osprey_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/susan/osprey_ws/build/px4_offboard/build install --record /home/susan/osprey_ws/build/px4_offboard/install.log --single-version-externally-managed install_data

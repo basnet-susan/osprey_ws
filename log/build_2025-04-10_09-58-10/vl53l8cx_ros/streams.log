@@ -1,0 +1,25 @@
+[0.996s] Invoking command in '/home/susan/osprey_ws/build/vl53l8cx_ros': PYTHONPATH=/home/susan/osprey_ws/build/vl53l8cx_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/susan/osprey_ws/build/vl53l8cx_ros/build --no-deps symlink_data
+[1.223s] /home/susan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.224s]   warnings.warn(msg)
+[1.438s] running develop
+[1.739s] running egg_info
+[1.755s] writing vl53l8cx_ros.egg-info/PKG-INFO
+[1.756s] writing dependency_links to vl53l8cx_ros.egg-info/dependency_links.txt
+[1.756s] writing entry points to vl53l8cx_ros.egg-info/entry_points.txt
+[1.757s] writing requirements to vl53l8cx_ros.egg-info/requires.txt
+[1.757s] writing top-level names to vl53l8cx_ros.egg-info/top_level.txt
+[1.788s] reading manifest file 'vl53l8cx_ros.egg-info/SOURCES.txt'
+[1.790s] writing manifest file 'vl53l8cx_ros.egg-info/SOURCES.txt'
+[1.807s] running build_ext
+[1.807s] Creating /home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages/vl53l8cx-ros.egg-link (link to .)
+[1.808s] Installing depth_point_each script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.809s] Installing fused_sensors script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.809s] Installing px4_fused_sensors script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.809s] Installing sensor_each_pointcloud script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.809s] Installing vehicle_odom_to_nav_odom script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.809s] Installing vl53l8cx_pointcloud script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.809s] Installing yaw_spin script to /home/susan/osprey_ws/install/vl53l8cx_ros/lib/vl53l8cx_ros
+[1.810s] 
+[1.810s] Installed /home/susan/osprey_ws/build/vl53l8cx_ros
+[1.810s] running symlink_data
+[1.859s] Invoked command in '/home/susan/osprey_ws/build/vl53l8cx_ros' returned '0': PYTHONPATH=/home/susan/osprey_ws/build/vl53l8cx_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/susan/osprey_ws/install/vl53l8cx_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/susan/osprey_ws/build/vl53l8cx_ros/build --no-deps symlink_data
