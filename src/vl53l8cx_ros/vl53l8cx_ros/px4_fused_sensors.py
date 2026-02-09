@@ -3,10 +3,9 @@
 fused_obstacle_publisher.py
 
 Fuses 10 VL53L8CX point clouds into a body-frame LaserScan:
- - Bins points into 180 sectors (2° each), requiring only 1 point/bin to report an obstacle.
- - Emits max-range for empty bins so VFH+ will “see” them as free.
- - Omits sensors #6 and #12.
- - Publishes only a sensor_msgs/LaserScan on /fused_obstacle_scan.
+ - Bins points into 180 sectors
+ - Omits sensors 6 and 12.
+ - 
 """
 import math
 import numpy as np
@@ -27,7 +26,7 @@ class FusedObstaclePublisher(Node):
                                                        rclpy.Parameter.Type.BOOL,
                                                        True)])
 
-        # Listen to 10 of the 12 VL53L8CX sensors (skip #6 and #12)
+        # Listen to 10 of the 12 VL53L8CX sensors (skip 6 and 12)
         self.sensor_topics = [
             f'/osprey/sensor_{i}/lidar/points'
             for i in range(1, 13)
@@ -47,7 +46,7 @@ class FusedObstaclePublisher(Node):
             10
         )
 
-        # TF listener to transform each sensor cloud into base_link
+        # TF listener to transform each sensor cloud into base link
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
@@ -120,7 +119,7 @@ class FusedObstaclePublisher(Node):
             self.get_logger().warn("No valid fused points.")
             return
 
-        # bin into 180 sectors of 2° each
+        # bin into 180 sectors 
         bins = [[] for _ in range(180)]
         for x, y in fused_points:
             angle = (math.degrees(math.atan2(y, x)) + 360.0) % 360.0
@@ -128,7 +127,7 @@ class FusedObstaclePublisher(Node):
             dist = math.hypot(x, y)
             bins[idx].append(dist)
 
-        # require only 1 point per bin
+        # require only 2 point per bin
         MIN_POINTS_PER_BIN = 2
         MIN_DIST = 0.05
         MAX_DIST = 4.0
@@ -140,7 +139,7 @@ class FusedObstaclePublisher(Node):
                 r = max(min(b), MIN_DIST)
                 ranges.append(r)
             else:
-                # no data → treat as free space at max_range
+                # if no data  treat as free space at max_range
                 ranges.append(MAX_DIST)
 
         # publish LaserScan
