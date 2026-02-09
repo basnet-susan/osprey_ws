@@ -61,7 +61,7 @@ class OffboardVFHVelocityVector(Node):
         self.vfh_sub    = self.create_subscription(
             Float32,         '/vfh_desired_yaw',          self.vfh_yaw_cb, 10)
 
-        # (Optional) publish world‐angle to goal for debug
+        # publish world‐angle to goal for debug
         self.goal_pub = self.create_publisher(Float32, '/vfh_target_direction', 10)
 
         # -------- Node state --------
@@ -118,7 +118,7 @@ class OffboardVFHVelocityVector(Node):
         now    = self.get_clock().now().nanoseconds * 1e-9
         now_us = int(now * 1e6)
 
-        # Build OffboardControlMode + TrajectorySetpoint (timestamps in μs)
+        # Build OffboardControlMode + TrajectorySetpoint (timestamps in micro sec)
         offboard_msg = OffboardControlMode()
         offboard_msg.timestamp = now_us
         traj_msg = TrajectorySetpoint()
