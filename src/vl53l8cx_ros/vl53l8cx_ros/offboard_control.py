@@ -65,16 +65,16 @@ class OffboardVFHVelocityVector(Node):
         self.goal_pub = self.create_publisher(Float32, '/vfh_target_direction', 10)
 
         # -------- Node state --------
-        # Make this exactly match VFH’s ENU goal = [east, north] = [10.0, 0.0]
+        # 
         self.goal_pos       = np.array([12.0, 0.0])  # ENU goal: (x_east, y_north)
         self.goal_threshold = 0.5                     # [m]
 
         # Current vehicle state from odometry
-        # PX4 Odometry.position is NED: [0]=north, [1]=east, [2]=down
+        #
         self.current_pos = np.array([0.0, 0.0, 0.0])  # NED: x_N, y_E, z_D
         self.current_yaw = 0.0                        # NED‐frame yaw [rad]
 
-        # Latest VFH yaw (ψ_des), in NED radians
+        # Latest VFH yaw in NED radians
         self.current_target_yaw = None
         self.vfh_yaw_received  = False
 
@@ -82,7 +82,7 @@ class OffboardVFHVelocityVector(Node):
         self.armed     = False
         self.nav_state = -1
 
-        # Flight phases: init → wait_offboard → takeoff → forward → hover
+        # Flight phases: i
         self.phase = 'init'
         self.takeoff_alt   = -3.0   # NED: climb to z = –3 m
         self.forward_speed = 0.5    # m/s (ground speed)
@@ -124,7 +124,7 @@ class OffboardVFHVelocityVector(Node):
         traj_msg = TrajectorySetpoint()
         traj_msg.timestamp = now_us
 
-        # Convert current_pos (NED) → ENU for distance calculation:
+        # current_pos (NED) to ENU for distance calculation:
         current_east = self.current_pos[1]   # NED y_E → ENU x
         current_north = self.current_pos[0]  # NED x_N → ENU y
         dx_e = self.goal_pos[0] - current_east
@@ -145,12 +145,12 @@ class OffboardVFHVelocityVector(Node):
 
         # If within threshold and not already hovering, switch to hover
         if dist_to_goal < self.goal_threshold and self.phase != 'hover':
-            self.get_logger().info("✅ Reached goal. Switching to hover phase.")
+            self.get_logger().info("Reached goal. Switching to hover phase.")
             self.phase = 'hover'
 
         # ==== Phase handling ====
         if self.phase == 'init':
-            # Send a small position setpoint at current XYZ, altitude = –0.25 m
+            # small position setpoint at current XYZ, altitude = –0.25 m
             traj_msg.position = [
                 float(self.current_pos[0]),  # NED x_N
                 float(self.current_pos[1]),  # NED y_E
@@ -189,7 +189,7 @@ class OffboardVFHVelocityVector(Node):
             offboard_msg.position = True
             self.traj_pub.publish(traj_msg)
 
-            # Wait until altitude reached (±0.2 m margin)
+            # Wait until altitude reached (0.2 m margin)
             if -self.current_pos[2] >= abs(self.takeoff_alt) - 0.2:
                 self.get_logger().info("Takeoff complete → entering forward phase.")
                 self.phase = 'forward'
@@ -211,21 +211,19 @@ class OffboardVFHVelocityVector(Node):
             if self.phase == 'hover':
                 pass
             else:
-                # Compute ENU velocity from VFH yaw in NED
+                # CENU velocity from VFH yaw in NED
                 ψ_des_ned = self.current_target_yaw  # [rad]
-                # Convert ψ_des_ned → ψ_des_enu = π/2 − ψ_des_ned
+                
                 ψ_des_enu = (math.pi/2 - ψ_des_ned) % (2 * math.pi)
-                # Build world‐frame velocity in ENU:
+                # world‐frame velocity in ENU:
                 vx_enu = self.forward_speed * math.cos(ψ_des_enu)
                 vy_enu = self.forward_speed * math.sin(ψ_des_enu)
-                # Convert ENU → NED components:
-                #   ENU x = east → NED y_E = +vx_enu
-                #   ENU y = north → NED x_N = +vy_enu
+           
                 vx_ned = vy_enu
                 vy_ned = vx_enu
 
                 traj_msg.velocity = [float(vx_ned), float(vy_ned), 0.0]
-                # Also send a Z‐position so PX4 holds altitude
+                # send a Z‐position so PX4 holds altitude
                 traj_msg.position = [
                     float(self.current_pos[0]),
                     float(self.current_pos[1]),
@@ -234,7 +232,7 @@ class OffboardVFHVelocityVector(Node):
                 # Keep yaw constant at current_yaw
                 traj_msg.yaw = float(self.current_yaw)
 
-                # Tell PX4: “I’m sending velocity + yaw only” (no XY position)
+                # velocity + yaw only (no XY position)
                 offboard_msg.velocity = True
                 offboard_msg.position = False
                 self.traj_pub.publish(traj_msg)
@@ -244,7 +242,7 @@ class OffboardVFHVelocityVector(Node):
                 return
 
         elif self.phase == 'hover':
-            # Hold current position (NED) + yaw
+            # Hold current position (NED) and yaw
             traj_msg.position = [
                 float(self.current_pos[0]),
                 float(self.current_pos[1]),
@@ -255,7 +253,7 @@ class OffboardVFHVelocityVector(Node):
             self.traj_pub.publish(traj_msg)
             self.get_logger().info("Hovering at goal position.")
 
-        # Finally: publish OffboardControlMode flags in every phase
+        #  publish OffboardControlMode flags in every phase
         self.offboard_pub.publish(offboard_msg)
 
     def send_mode_command(self):
